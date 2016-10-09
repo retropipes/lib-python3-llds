@@ -50,3 +50,12 @@ class LLDS(object):
     def fill(self, value):
         for x in range(0, len(self.__data_store)):
             self.__data_store[x] = value
+    
+    def _get_raw_cell(self, rawloc):
+        return self.__data_store[rawloc]
+
+    def _set_raw_cell(self, rawloc, value):
+        self.__data_store[rawloc] = value
+    
+    def _get_raw_length(self):
+        return len(self.__data_store)
