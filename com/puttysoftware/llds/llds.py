@@ -4,9 +4,9 @@ Created on Feb 8, 2015
 @author: ericahnell
 '''
 
-class llds(object):
+class LLDS(object):
     '''
-    The llds class represents a low-level data store of variable size.
+    The LLDS class represents a low-level data store of variable size.
     The size of the store is set upon creation and cannot be changed.
     '''
 
